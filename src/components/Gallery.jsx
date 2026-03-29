@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 
 export default function Gallery() {
   const images = [
-    { src: "/images/couple5.jpg", text: "The beginning 💫" },
-    { src: "/images/couple1.jpg", text: "Smiles & chaos 😄" },
-    { src: "/images/couple2.jpg", text: "Forever vibes ❤️" },
-    { src: "/images/couple3.jpg", text: "Little memories ✨" },
-    { src: "/images/couple4.jpg", text: "Us always 💍" },
+    { src: "/images/couple1.jpg", text: "The beginning 💫" },
+    { src: "/images/couple2.jpg", text: "Us always 💍" },
+    { src: "/images/couple3.jpg", text: "Forever vibes ❤️" },
+    { src: "/images/couple4.jpg", text: "Little memories ✨" },
+    { src: "/images/couple5.jpg", text: "Smiles & chaos 😄" },
   ];
 
   const [index, setIndex] = useState(0);
