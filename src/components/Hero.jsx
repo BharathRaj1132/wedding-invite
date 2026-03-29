@@ -40,7 +40,7 @@ export default function Hero() {
 
       {/* Background */}
       <img
-        src="/images/bgevents.jpg"
+        src="/images/Herobg.jpg"
         className="absolute w-full h-full object-cover"
       />
 
