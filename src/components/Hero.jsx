@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import MusicPlayer from "./MusicPlayer";
 
 export default function Hero() {
   const ref = useRef(null);
@@ -37,7 +38,7 @@ export default function Hero() {
       className="relative h-[180vh] md:h-[220vh] overflow-hidden"
       // slight mobile reduction only
     >
-
+      <MusicPlayer />
       {/* Background */}
       <img
         src="/images/Herobg.jpg"
